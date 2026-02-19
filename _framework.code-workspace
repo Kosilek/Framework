@@ -5,11 +5,15 @@
             "path": "."
         },
         {
-            "name": "Runtime.Unity",
+            "name": "📁 Runtime.Unity",
             "path": "Assets/_Framework/Runtime.Unity"
         },
         {
-            "name": "Runtime.Pure",
+            "name": "└── 📁 _FM.Appboot",
+            "path": "Assets/_Framework/Runtime.Unity/_FM.Appboot"
+        },
+        {
+            "name": "📁 Runtime.Pure",
             "path": "Assets/_Framework/Runtime.Pure"
         }
     ],
@@ -17,6 +21,7 @@
         "files.exclude": {
             "**/.DS_Store": true,
             "**/.git": true,
+            "**/.gitignore": true,
             "**/.vs": true,
             "**/.gitmodules": true,
             "**/.vsconfig": true,
@@ -24,7 +29,15 @@
             "**/*.pidb": true,
             "**/*.suo": true,
             "**/*.user": true,
-            "**/*.meta": true
+            "**/*.meta": true,
+            "**/Library": true,
+            "**/Logs": true,
+            "**/obj": true,
+            "**/Packages": true,
+            "**/ProjectSettings": true,
+            "**/Temp": true,
+            "**/UserSettings": true,
+            "**/*.csproj": true
         },
         "omnisharp.defaultLaunchSolution": "Framework.sln",
         "omnisharp.useModernNet": true,
