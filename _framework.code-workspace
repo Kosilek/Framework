@@ -1,0 +1,85 @@
+{
+    "folders": [
+        {
+            "name": "Framework",
+            "path": "."
+        },
+        {
+            "name": "Runtime.Unity",
+            "path": "Assets/_Framework/Runtime.Unity"
+        },
+        {
+            "name": "Runtime.Pure",
+            "path": "Assets/_Framework/Runtime.Pure"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.DS_Store": true,
+            "**/.git": true,
+            "**/.vs": true,
+            "**/.gitmodules": true,
+            "**/.vsconfig": true,
+            "**/*.booproj": true,
+            "**/*.pidb": true,
+            "**/*.suo": true,
+            "**/*.user": true,
+            "**/*.meta": true
+        },
+        "omnisharp.defaultLaunchSolution": "Framework.sln",
+        "omnisharp.useModernNet": true,
+        "omnisharp.monoPath": "",
+        "omnisharp.enableRoslynAnalyzers": true,
+        "omnisharp.enableEditorConfigSupport": true,
+        "omnisharp.projectLoadTimeout": 200,
+        "omnisharp.maxProjectResults": 250,
+        "dotnet.defaultSolution": "Framework.sln",
+        "dotnet.server.useOmnisharp": true,
+        "[csharp]": {
+            "editor.formatOnSave": false,
+            "editor.formatOnType": false,
+            "editor.formatOnPaste": false,
+            "editor.codeActionsOnSave": {
+                "source.organizeImports": "never"
+            }
+        },
+
+        "csharp.suppressDotnetRestoreNotification": true,
+        "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
+        "dotnet.formatting.organizeImportsOnFormat": false,
+        
+        "files.watcherExclude": {
+            "/Library/": true,
+            "/Temp/": true,
+            "/obj/": true,
+            "/bin/": true,
+            "/.vs/": true,
+            "/.omnisharp/": true,
+            "**/*.meta": true
+        },
+        "search.exclude": {
+            "/Library": true,
+            "/Temp": true,
+            "/obj": true,
+            "/bin": true,
+            "/.vs": true,
+            "/.omnisharp": true,
+            "**/node_modules": true
+        },
+
+        "problems.decorations.enabled": true,
+        "problems.showCurrent": "single",
+        "problems.sortOrder": "severity",
+        "terminal.integrated.cwd": "${workspaceFolder:Framework}"
+    },
+    "extensions": {
+        "recommendations": [
+            "kosilek.api-level-visualizer",
+            "ms-dotnettools.csharp",
+            "visualstudiotoolsforunity.vstuc"
+        ],
+        "unwantedRecommendations": [
+            "ms-dotnettools.csdevkit"
+        ]
+    }
+}

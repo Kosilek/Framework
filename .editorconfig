@@ -1,0 +1,52 @@
+# EditorConfig — правила анализа кода для C# (.NET / Unity)
+# Документация: https://learn.microsoft.com/dotnet/fundamentals/code-analysis/configuration-files
+# Уровни: none | silent | suggestion | warning | error
+
+root = true
+
+[*.cs]
+indent_style = space
+indent_size = 4
+charset = utf-8
+end_of_line = crlf
+
+# ========== Правила диагностики (изменить severity по необходимости) ==========
+# Уровни: none = скрыть, silent = не показывать, suggestion = подсказка,
+#         warning = предупреждение, error = ошибка
+
+# --- Nullable Reference Types (часто мешают в legacy/Unity коде) ---
+# dotnet_diagnostic.CS8618.severity = none
+# dotnet_diagnostic.CS8600.severity = none
+# dotnet_diagnostic.CS8601.severity = none
+# dotnet_diagnostic.CS8602.severity = none
+# dotnet_diagnostic.CS8603.severity = none
+# dotnet_diagnostic.CS8604.severity = none
+
+# --- Code Analysis (CA) — часто отключаемые ---
+# CA1062 — проверка аргументов на null (мешает в Unity)
+# dotnet_diagnostic.CA1062.severity = none
+
+# CA1812 — внутренний класс не создаётся (MonoBehaviour через Unity)
+# dotnet_diagnostic.CA1812.severity = none
+
+# CA1822 — помечать как static (может ломать Unity/сериализацию)
+# dotnet_diagnostic.CA1822.severity = none
+
+# CA2007 — ConfigureAwait (часто не нужен в Unity)
+# dotnet_diagnostic.CA2007.severity = none
+
+# CA2254 — шаблон лога должен быть статической строкой
+# dotnet_diagnostic.CA2254.severity = none
+
+# CA2235 — помечать все несериализуемые поля [NonSerialized]
+# dotnet_diagnostic.CA2235.severity = none
+
+# --- IDE-правила ---
+# IDE0051 — удалить неиспользуемый приватный член
+# dotnet_diagnostic.IDE0051.severity = none
+
+# IDE0060 — удалить неиспользуемый параметр
+# dotnet_diagnostic.IDE0060.severity = none
+
+# IDE0044 — добавить модификатор readonly
+# dotnet_diagnostic.IDE0044.severity = none
