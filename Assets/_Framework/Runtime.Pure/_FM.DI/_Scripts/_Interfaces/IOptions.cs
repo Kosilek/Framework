@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace KosilekPack.DI
+namespace _FM.DI
 {
     /// <summary>
     /// {RU} Интерфейс для паттерна Options, предоставляющий доступ к конфигурационным данным

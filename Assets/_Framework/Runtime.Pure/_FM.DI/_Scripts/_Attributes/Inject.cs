@@ -1,6 +1,6 @@
 using System;
 
-namespace KosilekPack.DI
+namespace _FM.DI
 {
     /// <summary>
     /// {RU} Атрибут для пометки полей и свойств для автоматической инъекции зависимостей (функция в разработке)

@@ -1,4 +1,4 @@
-namespace KosilekPack.DI
+namespace _FM.DI
 {
     /// <summary>
     /// {RU} Политика разрешения зависимостей при отсутствии зарегистрированного типа

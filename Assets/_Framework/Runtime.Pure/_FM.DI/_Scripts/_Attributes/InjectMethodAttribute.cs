@@ -1,6 +1,6 @@
 using System;
 
-namespace KosilekPack.DI
+namespace _FM.DI
 {
     /// <summary>
     /// {RU} Атрибут для методов, в которые нужно инъектировать зависимости после создания объекта

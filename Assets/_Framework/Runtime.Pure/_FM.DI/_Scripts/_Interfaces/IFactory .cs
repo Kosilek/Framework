@@ -1,4 +1,4 @@
-namespace KosilekPack.DI
+namespace _FM.DI
 {
     /// <summary>
     /// {RU} Интерфейс фабрики для создания экземпляров объектов (используется внутри контейнера для Transient сервисов)

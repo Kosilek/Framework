@@ -1,0 +1,14 @@
+{
+    "name": "_FM.DevConsole",
+    "rootNamespace": "_FM.DevConsole",
+    "references": ["FM.General"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

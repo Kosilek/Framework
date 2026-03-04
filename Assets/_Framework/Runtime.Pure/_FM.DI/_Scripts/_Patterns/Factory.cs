@@ -1,6 +1,6 @@
 using System;
 
-namespace KosilekPack.DI
+namespace _FM.DI
 {
     /// <summary>
     /// {RU} Реализация фабрики для создания экземпляров типа T (используется внутри контейнера)

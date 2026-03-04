@@ -1,6 +1,6 @@
 using System;
 
-namespace KosilekPack.DI
+namespace _FM.DI
 {
     /// <summary>
     /// {RU} Атрибут для указания имени зависимости в параметре конструктора

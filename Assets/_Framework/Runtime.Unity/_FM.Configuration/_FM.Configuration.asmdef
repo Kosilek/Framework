@@ -1,0 +1,4 @@
+{
+	"name": "_FM.Configuration",
+	"references": ["FM.General"]
+}

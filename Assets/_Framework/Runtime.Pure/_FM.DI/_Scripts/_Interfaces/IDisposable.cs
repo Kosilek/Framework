@@ -1,4 +1,4 @@
-namespace KosilekPack.DI
+namespace _FM.DI
 {
     /// <summary>
     /// {RU} Интерфейс для освобождения ресурсов (аналог System.IDisposable для использования в DI контейнере)

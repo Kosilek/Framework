@@ -9,12 +9,24 @@
             "path": "Assets/_Framework/Runtime.Unity"
         },
         {
-            "name": "└── 📁 _FM.Appboot",
-            "path": "Assets/_Framework/Runtime.Unity/_FM.Appboot"
+            "name": "├── 📁 _FM.Configuration",
+            "path": "Assets/_Framework/Runtime.Unity/_FM.Configuration"
+        },
+        {
+            "name": "└── 📁 _FM.DevConsole",
+            "path": "Assets/_Framework/Runtime.Unity/_FM.DevConsole"
         },
         {
             "name": "📁 Runtime.Pure",
             "path": "Assets/_Framework/Runtime.Pure"
+        },
+        {
+            "name": "🛠️ Editor",
+            "path": "Assets/_Framework/Editor"
+        },
+        {
+            "name": "♨️ FM.General",
+            "path": "Assets/_Framework/FM.General"
         }
     ],
     "settings": {

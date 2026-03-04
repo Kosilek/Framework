@@ -1,10 +1,24 @@
 # Framework
 
-**v0.1.0** | 2026-02-19
+**v0.2.0** | 2026-03-04
 
 ---
 
 ## Changelog
+
+### v0.2.0 (2026-03-04)
+- **FM.General** — базовая сборка: Bootstrap, IBootstrap, IRegisterInDI, IRegistrationContext. Все модули зависят от General
+- **FM.General** — base assembly: Bootstrap, IBootstrap, IRegisterInDI, IRegistrationContext. All modules depend on General
+- **Bootstrap** — discovery IBootstrap через Reflection, DiBootstrap запускается первым
+- **Bootstrap** — IBootstrap discovery via Reflection, DiBootstrap runs first
+- **DI** — DiBootstrap, IRegisterInDI discovery, RegistrationContext. Модули регистрируются без зависимости от _FM.DI
+- **DI** — DiBootstrap, IRegisterInDI discovery, RegistrationContext. Modules register without _FM.DI dependency
+- **IDIManager** — RegisterSingleton, RegisterTransient, Resolve, TryResolve
+- **Logger** — LoggerDiRegistration (IRegisterInDI), LogCaptured event для Dev Console
+- **Logger** — LoggerDiRegistration (IRegisterInDI), LogCaptured event for Dev Console
+- Удалён _FM.Appboot, функционал перенесён в Bootstrap
+- Removed _FM.Appboot, functionality moved to Bootstrap
+- Editor: SymbolsForGroup (Add/Remove/Clear define symbols), пресеты DEV_CONSOLE, DEBUG
 
 ### v0.1.0 (2026-02-19)
 - Интегрирована проверенная DI система (**FM.DI**): контейнер с поддержкой Singleton/Transient, constructor injection, именованные регистрации, атрибуты `[Inject]`, `[InjectConstructor]`, `[InjectMethod]`, `UnityInjectService` для Unity-компонентов
